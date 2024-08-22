@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vhMrYsYP934=",
+  "dgSpecHash": "Aa020o6jg74=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\Datingapp.csproj",
+  "projectFilePath": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Datingapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PERCOIDIT\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\PERCOIDIT\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

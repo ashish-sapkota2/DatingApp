@@ -7103,11 +7103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\Datingapp.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Datingapp.csproj",
       "projectName": "Datingapp",
-      "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\Datingapp.csproj",
+      "projectPath": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Datingapp.csproj",
       "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
