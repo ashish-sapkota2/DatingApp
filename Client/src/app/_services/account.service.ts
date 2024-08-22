@@ -6,13 +6,14 @@ import { catchError, map } from 'rxjs/operators';
 import { User } from '../_models/user';
 import { PresenceService } from './presence.service';
 import { of } from 'rxjs';
+import { environment } from '../../environment/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AccountService {
 
-  baseUrl ="https://localhost:7164/api/";
+  baseUrl = environment.baseUrl;
  //Replaysubject store the value and anytime subscriber subscribe the observable it will emit last value stored
   private currentUserSource = new ReplaySubject<User| null>(1)
 

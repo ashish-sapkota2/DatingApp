@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { HubConnection, HubConnectionBuilder, LogLevel } from '@microsoft/signalr';
 import { BehaviorSubject, take } from 'rxjs';
+import { environment } from '../../environment/environment';
 import { Group } from '../_models/group';
 import { Message } from '../_models/message';
 import { User } from '../_models/user';
@@ -12,8 +13,8 @@ import { getPaginatedResult, getPaginationHeaders } from './paginationHelper';
 })
 export class MessageService {
 
-  baseUrl = "https://localhost:7164/api/";
-  hubUrl = "https://localhost:7164/hubs/";
+  baseUrl = environment.baseUrl;
+  hubUrl = environment.hubUrl;
   private hubConnection: HubConnection;
   private messageThreadSource = new BehaviorSubject<Message[]>([]);
   messageThread$ = this.messageThreadSource.asObservable();

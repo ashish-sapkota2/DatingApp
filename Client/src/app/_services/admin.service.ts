@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { environment } from '../../environment/environment';
 import { Photo } from '../_models/photo';
 import { User } from '../_models/user';
 
@@ -7,7 +8,7 @@ import { User } from '../_models/user';
   providedIn: 'root'
 })
 export class AdminService {
-baseUrl='https://localhost:7164/api/';
+baseUrl=environment.baseUrl;
 
   constructor(private http: HttpClient) { }
 

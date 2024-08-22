@@ -3,13 +3,14 @@ import { Router } from '@angular/router';
 import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr';
 import { ToastrService } from 'ngx-toastr';
 import { BehaviorSubject, take } from 'rxjs';
+import { environment } from '../../environment/environment';
 import { User } from '../_models/user';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PresenceService {
-  hubUrl ="https://localhost:7164/hubs/";
+  hubUrl =environment.hubUrl;
 
   private hubConnection: HubConnection;
   private onlineUserSource = new BehaviorSubject<string[]> ([]);

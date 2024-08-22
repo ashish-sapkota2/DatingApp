@@ -43,3 +43,12 @@
     border-top: 1px solid #eee;
     padding: 15px 0;
 }
+/* styles.css or styles.scss */
+/* styles.css or styles.scss */
+body {
+    background: linear-gradient(to right, rgb(129, 22, 106), rgb(255, 182, 193)); /* Gradient from your color to a light pink */
+    color: black; /* White text for contrast */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Default font */
+  }
+  

@@ -15,6 +15,7 @@ import { PresenceService } from '../../_services/presence.service';
 import { AccountService } from '../../_services/account.service';
 import { User } from '../../_models/user';
 import { take } from 'rxjs';
+import { ToastrModule, ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-member-detail',
@@ -32,6 +33,8 @@ export class MemberDetailComponent implements OnInit, OnDestroy {
   activeTab: TabDirective;
   messages: Message[] = [];
   user: User;
+  members:Member[]=[];
+  match:{[key:number]:boolean}={};
 
   ngOnInit(): void {
     this.route.data.subscribe(data => {
@@ -61,14 +64,20 @@ export class MemberDetailComponent implements OnInit, OnDestroy {
 
   constructor(public presence: PresenceService,
     private route: ActivatedRoute, private messageService: MessageService,
-    private accountService: AccountService,private router : Router) {
+    private accountService: AccountService,private router : Router,
+    private memberService:MembersService,private toastr:ToastrService) {
 
     this.accountService.currentUser$.pipe(take(1)).subscribe(user=>this.user=user);
-
+      this.getMatches();
   }
 
 
-
+  addLike(member: Member){
+    this.memberService.addLike(member.username).subscribe(()=>{
+      this.toastr.success('You have liked ' + member.knownAs);
+      
+    })
+  }
   selectTab(tabId: number) {
     this.memberTabs.tabs[tabId].active = true;
   }
@@ -117,7 +126,27 @@ export class MemberDetailComponent implements OnInit, OnDestroy {
         this.messageService.stopHubConnection();
     }
   }
+  getMatches(){
+    this.memberService.getMatches().subscribe(response=>{
+    this.members= response;
+    this.members.forEach(element => {
+      console.log("Member Id:", element.id)
+      this.CheckifMatch(element.id)
+    });
+    })   
+  }
 
+  CheckifMatch(id:number){
+    const matchid =this.members.some(member=>member.id===id);
+    console.log(matchid)
+    if(matchid){
+
+      this.match[id]=matchid;
+    }else{
+      this.match[id]=false;
+    }
+    
+  }
   ngOnDestroy(): void {
     this.messageService.stopHubConnection();
   }

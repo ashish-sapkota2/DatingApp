@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { FileUploader, FileUploadModule } from 'ng2-file-upload';
 import { take } from 'rxjs';
+import { environment } from '../../../environment/environment';
 import { Member } from '../../_models/member';
 import { Photo } from '../../_models/photo';
 import { User } from '../../_models/user';
@@ -19,7 +20,7 @@ export class PhotoEditorComponent {
   @Input() member: Member;
   uploader: FileUploader;
   hasBaseDropZoneOver =false;
-  baseUrl = 'https://localhost:7164/api/';
+  baseUrl = environment.baseUrl;
   user: User;
 
 constructor(private accountService: AccountService, private memberService: MembersService){

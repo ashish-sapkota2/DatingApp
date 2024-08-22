@@ -16,13 +16,14 @@ import { MembersService } from '../_services/members.service';
 })
 export class ListsComponent {
 
+  match: Member[]=[];
   members : Partial<Member[]>;
-  predicate ='liked';
+  predicate ='matches';
   pageNumber= 1;
   pageSize = 5;
   pagination: Pagination;
   constructor(private memberService: MembersService){
-    this.loadLikes();
+    this.getMatches();
   }
 
   loadLikes(){
@@ -31,6 +32,12 @@ export class ListsComponent {
       this.pagination= response.pagination;
 
     })
+  }
+  getMatches(){
+    this.memberService.getMatches().subscribe(response=>{
+     this.members=response;
+    })
+    
   }
 
   pageChange(event:any){

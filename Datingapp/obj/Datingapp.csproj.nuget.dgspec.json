@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\Datingapp.csproj": {}
+    "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Datingapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\Datingapp.csproj": {
+    "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Datingapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\Datingapp.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Datingapp.csproj",
         "projectName": "Datingapp",
-        "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\Datingapp.csproj",
+        "projectPath": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Datingapp.csproj",
         "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,6 +89,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -2,6 +2,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { getActiveConsumer } from '@angular/core/primitives/signals';
 import { map, retry, take } from 'rxjs';
+import { environment } from '../../environment/environment';
 import { Member } from '../_models/member';
 import { PaginatedResult } from '../_models/pagination';
 import { User } from '../_models/user';
@@ -15,7 +16,7 @@ import { getPaginatedResult, getPaginationHeaders } from './paginationHelper';
 export class MembersService {
   user:User;
   userparams: UserParams;
-  baseUrl ='https://localhost:7164/api/';
+  baseUrl =environment.baseUrl;
   constructor(private http: HttpClient, private accountService : AccountService) { 
     this.accountService.currentUser$.pipe(take(1)).subscribe(user=>{
       this.user=user;
@@ -70,5 +71,8 @@ export class MembersService {
     let params = getPaginationHeaders(pageNumber, pageSize);
     params = params.append('predicate', predicate)
     return getPaginatedResult<Partial<Member[]>>(this.baseUrl + 'likes', params, this.http);
+  }
+  getMatches(){
+    return this.http.get<Member[]>(this.baseUrl+ 'likes/match')
   }
 }

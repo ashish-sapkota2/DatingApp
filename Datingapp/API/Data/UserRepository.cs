@@ -6,10 +6,6 @@ using Datingapp.API.Helpers;
 using Datingapp.API.Interface;
 using Datingapp.API.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
-using Microsoft.VisualBasic;
-using System.Security.Cryptography;
-using System.Text;
 
 namespace Datingapp.API.Data
 {

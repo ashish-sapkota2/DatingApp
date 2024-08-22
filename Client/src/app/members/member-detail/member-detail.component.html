@@ -25,8 +25,11 @@
             </div>
             <div class="card-footer">
                 <div class="btn-group d-flex">
-                    <button class="btn btn-primary bg-dark">Like</button>
-                    <button (click)="selectTab(3)" class="btn btn-success">Message</button>
+                    <button (click)="addLike(member)" class="btn btn-primary bg-dark">Like</button>
+                    <button 
+                    [disabled]="!match[member.id]"
+                    (click)="selectTab(3)" 
+                    class="btn btn-success">Message</button>
                 </div>
             </div>
         </div>
@@ -48,7 +51,7 @@
                 <p>photos</p>
                 <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>
             </tab>
-            <tab heading="Messages"  (selectTab) = "onTabActivated($event)">
+            <tab  [disabled]="!match[member.id]" heading="Messages"  (selectTab) = "onTabActivated($event)">
                 <app-member-messages [username]="member.username" ></app-member-messages>
             </tab>
         </tabset>

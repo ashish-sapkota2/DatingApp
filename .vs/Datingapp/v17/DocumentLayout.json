@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\",
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\repos\\test\\datingapp\\datingapp\\api\\helpers\\paginationheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\api\\helpers\\paginationheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\datingapp\\datingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\repos\\test\\datingapp\\datingapp\\api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\datingapp\\datingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\datingapp\\datingapp\\api\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\api\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\datingapp\\datingapp\\api\\data\\likesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\api\\data\\likesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\datingapp\\datingapp\\api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\datingapp\\datingapp\\api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|c:\\users\\percoidit\\source\\datingapp\\datingapp\\api\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849D3D0A-D727-4B42-A09A-F28301764A9C}|Datingapp\\Datingapp.csproj|solutionrelative:datingapp\\api\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +43,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PaginationHeader.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\API\\Helpers\\PaginationHeader.cs",
-              "RelativeDocumentMoniker": "Datingapp\\API\\Helpers\\PaginationHeader.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\API\\Helpers\\PaginationHeader.cs",
-              "RelativeToolTip": "Datingapp\\API\\Helpers\\PaginationHeader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:15:12.31Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\appsettings.json",
+              "RelativeDocumentMoniker": "Datingapp\\appsettings.json",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\appsettings.json",
+              "RelativeToolTip": "Datingapp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAB+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-22T09:16:09.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseApiController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\API\\Controllers\\BaseApiController.cs",
-              "RelativeDocumentMoniker": "Datingapp\\API\\Controllers\\BaseApiController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\test\\Datingapp\\Datingapp\\API\\Controllers\\BaseApiController.cs",
-              "RelativeToolTip": "Datingapp\\API\\Controllers\\BaseApiController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Program.cs",
+              "RelativeDocumentMoniker": "Datingapp\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\Program.cs",
+              "RelativeToolTip": "Datingapp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:14:52.43Z",
+              "WhenOpened": "2024-08-22T09:16:05.444Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Datingapp\\API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Datingapp\\API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:10:02.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LikesController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Controllers\\LikesController.cs",
+              "RelativeDocumentMoniker": "Datingapp\\API\\Controllers\\LikesController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Controllers\\LikesController.cs",
+              "RelativeToolTip": "Datingapp\\API\\Controllers\\LikesController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAUwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:50:51.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Datingapp\\API\\Data\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Data\\UnitOfWork.cs",
+              "RelativeToolTip": "Datingapp\\API\\Data\\UnitOfWork.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBUAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:49:15.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Datingapp\\API\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Datingapp\\API\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAuwA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:37:29.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LikesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Data\\LikesRepository.cs",
+              "RelativeDocumentMoniker": "Datingapp\\API\\Data\\LikesRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\Datingapp\\Datingapp\\API\\Data\\LikesRepository.cs",
+              "RelativeToolTip": "Datingapp\\API\\Data\\LikesRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowEAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:09:09.792Z"
             }
           ]
         }
