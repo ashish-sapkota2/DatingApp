@@ -49,7 +49,7 @@ namespace Datingapp.API.Data
             {
                 foreach (var message in unreadMessages)
                 {
-                    message.DateRead = DateTime.Now;
+                    message.DateRead = DateTime.UtcNow;
                 }
                 await context.SaveChangesAsync();
             }

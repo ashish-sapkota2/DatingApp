@@ -69,7 +69,7 @@ namespace Datingapp.API.Data
             //}
 
             return await dataContext.Users.ProjectTo<AppUser>(mapper.ConfigurationProvider).ToListAsync();
-        }
+        } 
 
         public async Task<AppUser>GetByUsername(string username)
         {

@@ -82,7 +82,7 @@ namespace Datingapp.API.SignalR
             if(group.Connections.Any(x=>x.Username == recipient.UserName))
             {
                 Console.WriteLine(recipient.UserName);
-                message.DateRead = DateTime.Now;
+                message.DateRead = DateTime.UtcNow;
             }
             else
             {
